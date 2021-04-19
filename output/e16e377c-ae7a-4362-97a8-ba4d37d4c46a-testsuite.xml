@@ -1,0 +1,298 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618576309306' stop='1618576591107'>
+    <name>UI Tests on Workspace:</name>
+    <title>UI Tests on Workspace:</title>
+    <test-cases>
+        <test-case start='1618576309307' status='passed' stop='1618576352431'>
+            <name>1. Navigate to Workspace</name>
+            <title>1. Navigate to Workspace</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1618576312216' status='passed' stop='1618576349469'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576349469' status='passed' stop='1618576349578'>
+                    <name>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</name>
+                    <title>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576349578' status='passed' stop='1618576349679'>
+                    <name>I fill field "#password", "aditya123"</name>
+                    <title>I fill field "#password", "aditya123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576349679' status='passed' stop='1618576351197'>
+                    <name>I click ".submitButton"</name>
+                    <title>I click ".submitButton"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576351197' status='passed' stop='1618576352422'>
+                    <name>I click "#layout_sidenav_material"</name>
+                    <title>I click "#layout_sidenav_material"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576352422' status='passed' stop='1618576352431'>
+                    <name>I see in current url "/material"</name>
+                    <title>I see in current url "/material"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1618576352612' status='failed' stop='1618576402589'>
+            <name>2. Sort documents</name>
+            <title>2. Sort documents</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1618576355416' status='passed' stop='1618576391442'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576391442' status='passed' stop='1618576392503'>
+                    <name>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</name>
+                    <title>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576392503' status='passed' stop='1618576392623'>
+                    <name>I fill field "#password", "aditya123"</name>
+                    <title>I fill field "#password", "aditya123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576392623' status='passed' stop='1618576394254'>
+                    <name>I click ".submitButton"</name>
+                    <title>I click ".submitButton"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576394254' status='passed' stop='1618576396716'>
+                    <name>I click "#layout_sidenav_material"</name>
+                    <title>I click "#layout_sidenav_material"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576396716' status='passed' stop='1618576397300'>
+                    <name>I click "//*[@id="root"]/div[3]/div/div[2]/div/div[2]/div/div[1]/div[2]/button"</name>
+                    <title>I click "//*[@id="root"]/div[3]/div/div[2]/div/div[2]/div/div[1]/div[2]/button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576397300' status='passed' stop='1618576397380'>
+                    <name>I click "//*[@id="modal-root"]/div/div/div/div[2]"</name>
+                    <title>I click "//*[@id="modal-root"]/div/div/div/div[2]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576397380' status='failed' stop='1618576402588'>
+                    <name>I see "Creation date"</name>
+                    <title>I see "Creation date"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='2e5999b5-3095-41f8-a281-cdb879c25aff-attachment.png' type='image/png' size='81156'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1618576414846' status='failed' stop='1618576464829'>
+            <name>3. Try uploading incorrect document format through workspace</name>
+            <title>3. Try uploading incorrect document format through workspace</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1618576417688' status='passed' stop='1618576454948'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576454948' status='passed' stop='1618576455098'>
+                    <name>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</name>
+                    <title>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576455098' status='passed' stop='1618576455195'>
+                    <name>I fill field "#password", "aditya123"</name>
+                    <title>I fill field "#password", "aditya123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576455195' status='passed' stop='1618576457021'>
+                    <name>I click ".submitButton"</name>
+                    <title>I click ".submitButton"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576457021' status='passed' stop='1618576458240'>
+                    <name>I click "#layout_sidenav_material"</name>
+                    <title>I click "#layout_sidenav_material"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576458240' status='passed' stop='1618576458870'>
+                    <name>I click "#material_upload_button"</name>
+                    <title>I click "#material_upload_button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576458871' status='passed' stop='1618576459375'>
+                    <name>I attach file "input[type=file]", "null.jpg"</name>
+                    <title>I attach file "input[type=file]", "null.jpg"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576459375' status='failed' stop='1618576464829'>
+                    <name>I see "Please load a PDF file."</name>
+                    <title>I see "Please load a PDF file."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='d64f9d26-fb0d-463e-95a7-1f712d3b6932-attachment.png' type='image/png' size='61338'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1618576474234' status='failed' stop='1618576524130'>
+            <name>4. Upload PDF document through workspace</name>
+            <title>4. Upload PDF document through workspace</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1618576477083' status='passed' stop='1618576514656'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576514656' status='passed' stop='1618576514773'>
+                    <name>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</name>
+                    <title>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576514773' status='passed' stop='1618576514863'>
+                    <name>I fill field "#password", "aditya123"</name>
+                    <title>I fill field "#password", "aditya123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576514863' status='passed' stop='1618576516492'>
+                    <name>I click ".submitButton"</name>
+                    <title>I click ".submitButton"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576516492' status='passed' stop='1618576517765'>
+                    <name>I click "#layout_sidenav_material"</name>
+                    <title>I click "#layout_sidenav_material"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576517765' status='passed' stop='1618576518316'>
+                    <name>I click "#material_upload_button"</name>
+                    <title>I click "#material_upload_button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576518316' status='passed' stop='1618576518812'>
+                    <name>I attach file "input[type=file]", "testfile.pdf"</name>
+                    <title>I attach file "input[type=file]", "testfile.pdf"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576518812' status='failed' stop='1618576524130'>
+                    <name>I see "Upload succeeded."</name>
+                    <title>I see "Upload succeeded."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='4a733f7c-a7e3-4fc5-8f3a-7e53a220117d-attachment.png' type='image/png' size='61394'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1618576532785' status='failed' stop='1618576581406'>
+            <name>5. Create a Flashcards deck</name>
+            <title>5. Create a Flashcards deck</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1618576535656' status='passed' stop='1618576571975'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576571975' status='passed' stop='1618576572092'>
+                    <name>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</name>
+                    <title>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576572092' status='passed' stop='1618576572183'>
+                    <name>I fill field "#password", "aditya123"</name>
+                    <title>I fill field "#password", "aditya123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576572183' status='passed' stop='1618576573830'>
+                    <name>I click ".submitButton"</name>
+                    <title>I click ".submitButton"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576573831' status='passed' stop='1618576576272'>
+                    <name>I click "#layout_sidenav_material"</name>
+                    <title>I click "#layout_sidenav_material"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576576272' status='passed' stop='1618576576581'>
+                    <name>I click "#material_create_deck_button"</name>
+                    <title>I click "#material_create_deck_button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576576581' status='failed' stop='1618576581405'>
+                    <name>I see element ".input-component_input_BgrSa4LC7r36z21c9cRPv"</name>
+                    <title>I see element ".input-component_input_BgrSa4LC7r36z21c9cRPv"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='a054dfaf-f44b-4cca-b224-faeb4ba93222-attachment.png' type='image/png' size='59323'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

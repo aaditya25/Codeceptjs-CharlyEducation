@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618576686904' stop='1618576808831'>
+    <name>Change the language in Charly Education:</name>
+    <title>Change the language in Charly Education:</title>
+    <test-cases>
+        <test-case start='1618576686904' status='passed' stop='1618576730853'>
+            <name>1. Change language to Deutche</name>
+            <title>1. Change language to Deutche</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1618576689835' status='passed' stop='1618576727571'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576727571' status='passed' stop='1618576727684'>
+                    <name>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</name>
+                    <title>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576727684' status='passed' stop='1618576727780'>
+                    <name>I fill field "#password", "aditya123"</name>
+                    <title>I fill field "#password", "aditya123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576727780' status='passed' stop='1618576729412'>
+                    <name>I click ".submitButton"</name>
+                    <title>I click ".submitButton"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576729412' status='passed' stop='1618576730682'>
+                    <name>I click "#layout_sidenav_language"</name>
+                    <title>I click "#layout_sidenav_language"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576730682' status='passed' stop='1618576730761'>
+                    <name>I click "#de"</name>
+                    <title>I click "#de"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576730761' status='passed' stop='1618576730853'>
+                    <name>I see "Sprache"</name>
+                    <title>I see "Sprache"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1618576731058' status='failed' stop='1618576779884'>
+            <name>2. Change language to English</name>
+            <title>2. Change language to English</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1618576734100' status='passed' stop='1618576771067'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576771067' status='passed' stop='1618576771230'>
+                    <name>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</name>
+                    <title>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576771231' status='passed' stop='1618576771323'>
+                    <name>I fill field "#password", "aditya123"</name>
+                    <title>I fill field "#password", "aditya123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576771323' status='passed' stop='1618576773116'>
+                    <name>I click ".submitButton"</name>
+                    <title>I click ".submitButton"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576773116' status='passed' stop='1618576774446'>
+                    <name>I click "#layout_sidenav_language"</name>
+                    <title>I click "#layout_sidenav_language"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576774446' status='passed' stop='1618576774547'>
+                    <name>I click "#de"</name>
+                    <title>I click "#de"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576774548' status='passed' stop='1618576774668'>
+                    <name>I see "Sprache"</name>
+                    <title>I see "Sprache"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576774668' status='passed' stop='1618576774744'>
+                    <name>I click "#en"</name>
+                    <title>I click "#en"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576774744' status='failed' stop='1618576779884'>
+                    <name>I see "Language"</name>
+                    <title>I see "Language"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='a0ad2434-b83a-4f0e-8eb7-a2891f54e37b-attachment.png' type='image/png' size='144928'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

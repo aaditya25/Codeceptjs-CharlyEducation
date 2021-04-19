@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618576591122' stop='1618576686898'>
+    <name>UI tests on Print dashboard:</name>
+    <title>UI tests on Print dashboard:</title>
+    <test-cases>
+        <test-case start='1618576591122' status='passed' stop='1618576641612'>
+            <name>1. Navigate to print dashbaord</name>
+            <title>1. Navigate to print dashbaord</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1618576594171' status='passed' stop='1618576638654'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576638654' status='passed' stop='1618576638768'>
+                    <name>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</name>
+                    <title>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576638768' status='passed' stop='1618576638859'>
+                    <name>I fill field "#password", "aditya123"</name>
+                    <title>I fill field "#password", "aditya123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576638859' status='passed' stop='1618576640384'>
+                    <name>I click ".submitButton"</name>
+                    <title>I click ".submitButton"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576640384' status='passed' stop='1618576641605'>
+                    <name>I click "#layout_sidenav_print_jobs"</name>
+                    <title>I click "#layout_sidenav_print_jobs"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576641605' status='passed' stop='1618576641612'>
+                    <name>I see in current url "/printdashboard"</name>
+                    <title>I see in current url "/printdashboard"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1618576641788' status='passed' stop='1618576686703'>
+            <name>2. Select a pdf document through print dashboard</name>
+            <title>2. Select a pdf document through print dashboard</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1618576644706' status='passed' stop='1618576682492'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576682493' status='passed' stop='1618576682612'>
+                    <name>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</name>
+                    <title>I fill field "//*[@id="email"]", "aditya@pluspeter.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576682612' status='passed' stop='1618576682705'>
+                    <name>I fill field "#password", "aditya123"</name>
+                    <title>I fill field "#password", "aditya123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576682705' status='passed' stop='1618576684277'>
+                    <name>I click ".submitButton"</name>
+                    <title>I click ".submitButton"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576684278' status='passed' stop='1618576685519'>
+                    <name>I click "#layout_sidenav_print_jobs"</name>
+                    <title>I click "#layout_sidenav_print_jobs"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576685519' status='passed' stop='1618576685602'>
+                    <name>I click ".printDashboard_marginRight_2bJuGF8jks4e3QbKCmOt-B"</name>
+                    <title>I click ".printDashboard_marginRight_2bJuGF8jks4e3QbKCmOt-B"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576685602' status='passed' stop='1618576686154'>
+                    <name>I click ".documentsView_upperArea_1UfX-u240PLtlsJ-eVCylL"</name>
+                    <title>I click ".documentsView_upperArea_1UfX-u240PLtlsJ-eVCylL"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618576686154' status='passed' stop='1618576686703'>
+                    <name>I see in current url "/learnview"</name>
+                    <title>I see in current url "/learnview"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

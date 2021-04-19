@@ -1,0 +1,23 @@
+{
+  "name": "codeceptjs-webdriverio",
+  "version": "1.0.0",
+  "description": "testcases for charly education using codeceptjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "aditya",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/selenium-standalone-service": "^7.2.1",
+    "axios": "^0.21.1",
+    "webdriverio": "^6.12.1"
+  },
+  "devDependencies": {
+    "@codeceptjs/configure": "^0.6.2",
+    "@codeceptjs/examples": "^1.2.1",
+    "@codeceptjs/ui": "^0.4.3",
+    "codeceptjs": "^3.0.5",
+    "playwright": "^1.9.2"
+  }
+}
